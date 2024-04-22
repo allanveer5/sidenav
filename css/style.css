@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.page-header{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(32, 44, 54);
+    padding: 20px;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    height: 100vh;
+    width: 200px;
+    background-color: rgb(31, 50, 66);
+    overflow: 0;
+    flex-shrink: 0;
+    padding: 15px;
+    padding-top: 120px;
+}
+.navbar a,ul,li {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: medium;
+    display: block;
+    padding: 3px;
+}
+#documentation{
+    position:relative ;
+    flex-grow: 1;
+    padding-left: 250px;
+    padding-bottom: 300px;
+}
+h2{
+    font-weight: 600;
+    color: #0d1717;
+    text-align: left;
+}
+p{
+    font-size: medium;
+    text-align: left;
+}
+#introduction{
+    width:35%;
+    border-bottom: 1px solid #0d1717;
+    padding-bottom: 20px;
+}
+#syntax{
+    width: 50%;
+    border-bottom: 1px solid #0d1717;
+    padding-bottom: 20px;
+}
+#variables{
+    width: 40%;
+    border-bottom: 1px solid #0d1717;
+    padding-bottom: 20px;
+}
+@media  screen and (max-width:768px) {
+    .navbar{
+        top: 0;
+        height: 100vh;
+        width: 89px;
+        overflow: 0;
+        flex-shrink: 0;
+        padding: 15px;
+        padding-top: 120px;
+    }
+    .page-header{
+        font-weight: 600;
+        padding: 20px;
+        padding-left: 140px;
+    }
+     #documentation {
+        position: relative;
+        flex-grow: 1;
+        padding-left: 140px;
+        padding-bottom: 150px;
+    }
+    #introduction {
+        width: 100%;
+        border-bottom: 1px solid #0d1717;
+        padding-bottom: 20px;
+    }
+    #syntax {
+        width: 100%;
+        border-bottom: 1px solid #0d1717;
+        padding-bottom: 20px;
+    }
+    #variables {
+        width: 100%;
+        border-bottom: 1px solid #0d1717;
+        padding-bottom: 20px;
+    }
+}
